@@ -6,7 +6,7 @@ A performant, accessible, progressive React portfolio template that uses the [Gi
 
 Add your GitHub username once and all of your info will automatically be updated. Deploy to GitHub pages in a few simple steps.
 
-## [Live Demo](https://adilnaveed5.github.io/adilsportfolio/")
+## [Live Demo](https://adilnaveed5.github.io/adilsportfolio/)
 
 [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
 
