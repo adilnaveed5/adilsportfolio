@@ -10,21 +10,21 @@ import HeroDark from "./images/hero-dark.jpg";
 
 // Projects Images (add your images to the images directory and import below)
 import Logo from "./images/logo.svg";
-
+import newLogo from "./images/unitylogoWhite.png";
 /* START HERE
  **************************************************************
   Add your GitHub username (string - "YourUsername") below.
 */
-export const githubUsername = "Your GitHub username here";
+export const githubUsername = "adilnaveed5";
 
 // Navbar Logo image
-export const navLogo = null;
+export const navLogo = newLogo;
 
 /* Main
  ************************************************************** 
   Add a custom blog icon or update the hero images for the Main section.
 */
-export const Blog = null;
+export const Blog =  <Icon icon="ph:link-bold" />;
 
 // Hero images (imported above - lines 8-9)
 export { HeroLight as Light };
@@ -44,33 +44,34 @@ export const moreInfo =
 export const skillData = [
   {
     id: 1,
-    skill: <Icon icon="mdi:language-html5" className="display-4" />,
-    name: "HTML5",
+    skill: <Icon icon="mdi:unity" className="display-4" />,
+    name: "Unity",
   },
   {
-    id: 2,
-    skill: <Icon icon="ion:logo-css3" className="display-4" />,
-    name: "CSS3",
+    id: 2,//  skill: <Icon icon="skill-icons:cs"  className="display-4" />,
+  //  name: "C#",
+    skill: <Icon icon="skill-icons:cs" className="display-4" />,
+    name: "C#",
   },
   {
     id: 3,
-    skill: <Icon icon="fa6-brands:js" className="display-4" />,
-    name: "JavaScript",
+    skill: <Icon icon="skill-icons:unrealengine"  className="display-4" />,
+    name: "unrealengine",
   },
   {
     id: 4,
-    skill: <Icon icon="ri:bootstrap-fill" className="display-4" />,
-    name: "BootStrap",
+    skill: <Icon icon="bi:badge-ar-fill"  className="display-4" />,
+    name: "AR",
   },
   {
     id: 5,
-    skill: <Icon icon="mdi:react" className="display-4" />,
-    name: "React",
+    skill: <Icon icon="bi:headset-vr"  className="display-4" />,
+    name: "VR",
   },
   {
     id: 6,
-    skill: <Icon icon="file-icons:styledcomponents" className="display-4" />,
-    name: "Styled Components",
+    skill: <Icon icon="devicon:visualstudio"  className="display-4" />,
+    name: "VisualStudio",
   },
   {
     id: 7,
