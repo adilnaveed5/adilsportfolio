@@ -1,7 +1,7 @@
 {
-  "name": "github-react-portfolio-template",
+  "name": "adilnaveed",
   "homepage": "https://adilnaveed5.github.io/adilsportfolio/",
-  "version": "1.0.2",
+  "version": "0.1",
   "private": true,
   "dependencies": {
     "@iconify/react": "^4.1.0",
